@@ -1,0 +1,84 @@
+const companies = [
+  {name:"suyog bankar", category:"FrontEnd Developer", start:"2000", end:"2005"},
+  {name:"haripal Singh", category:"java Developer", start:"3000", end:"4005"},
+  {name:"sfjj mfjf", category:"node.js Developer", start:"4000", end:"62005"},
+  {name:"Vivek nimbolkar", category:"FrontEnd Developer", start:"5000", end:"2005"},
+  {name:"arvind sawant", category:"Ruby Developer", start:"2060", end:"1005"},
+  {name:"amritpal singh", category:"Php Developer", start:"23000", end:"6005"},  
+];
+
+const age = [12,43,10,26,34,54,66,22,54,89,100,8,16];
+map
+sort
+filter
+reduce
+
+//map
+// const cmp = companies.map(m => `${m.name} [${m.start} = ${m.end}]`);
+// console.log(cmp);
+
+//sort
+// sort companies by start year
+//  const sortComp = companies.sort((c1,c2) => (c1.start > c2.start ? 1 : -1));
+ 
+// const sortAge = age.sort((a,b) => b - a);
+// console.log(sortAge);    
+  
+   //reduce
+  const combined = age
+    .map(age => age * 2)
+  return age
+  
+    .filter(age => age >= 100)
+    console.log(combined)
+    
+    .sort((a,b) => a - b)
+    console.log(combined)
+    
+    .reduce((a,b) => a + b, 0);
+    console.log(combined);
+
+//forLoop
+// for(let i=0; i<companies.length; i++){
+//   console.log(companies[i]);
+// }
+
+// forEach
+
+// companies.forEach(function(m){
+//   console.log(m.name, m.category);
+// });
+
+
+// filter start
+
+// let canDrink = [];
+// for(i=0; i<age.length; i++){
+//   if(age[i] >= 21){
+//     canDrink.push(age[i]);
+//   }
+// }
+
+// const canDrink = age.filter(function(m){
+//   if(m >= 21){
+//     return true;
+//   }
+// });
+
+// const canDrink = age.filter(m => m >= 21);
+// console.log(canDrink);
+
+// filter retail companies
+ 
+// const cmpCategory = companies.filter(function(cat){
+//   if(cat.category === "FrontEnd Developer")
+//     {
+//       return true;
+//     }
+// });
+
+// const cmpCategory = companies.filter(m => (m.end - m.start >= 10));
+// console.log(cmpCategory);
+// const retailComp = companies.filter(m)
+
+// filter end
